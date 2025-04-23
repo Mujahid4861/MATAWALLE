@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF Library | IBBU</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>📚 PDF Library</h1>
+    <ul>
+      <li><a href="dashboard.html">🏠 Dashboard</a></li>
+      <li><a href="login.html">🚪 Logout</a></li>
+    </ul>
+  </nav>
+
+  <div style="margin: 20px;">
+    <h2>Select a PDF to View:</h2>
+    <ul>
+      <li><a href="pdfs/CSC_113.pdf" target="pdf-frame">📄 CSC_113</a></li>
+      <li><a href="pdfs/INTERNET_WEB.pdf" target="pdf-frame">📄 Internet & Web</a></li>
+      <!-- Add more here -->
+    </ul>
+
+    <iframe name="pdf-frame" width="100%" height="600px" style="margin-top: 20px; border: 1px solid #ccc;"></iframe>
+    <a href="#" onclick="viewPDF('pdfs/CSC_113.pdf')">CSC_113</a>
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile | IBBU Portal</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>👤 Student Profile</h1>
+    <ul>
+      <li><a href="dashboard.html">🏠 Dashboard</a></li>
+      <li><a href="login.html">🚪 Logout</a></li>
+    </ul>
+  </nav>
+
+  <div class="welcome-box">
+    <h2>Your Profile Details</h2>
+    <p><strong>Full Name:</strong> <span id="name"></span></p>
+    <p><strong>Email:</strong> <span id="email"></span></p>
+    <p><strong>Matric Number:</strong> <span id="matric"></span></p>
+  </div>
+
+  <script>
+    // Get data from localStorage
+    document.getElementById('name').innerText = localStorage.getItem('fullname') || 'Not set';
+    document.getElementById('email').innerText = localStorage.getItem('email') || 'Not set';
+    document.getElementById('matric').innerText = localStorage.getItem('matric') || 'Not set';
+  </script>
+</body>
+</html>
