@@ -1,0 +1,94 @@
+body.welcome {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  
+  h1 span {
+    color: gold;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .auth-page {
+    background: linear-gradient(to bottom right, #2c3e50, #3498db);
+    color: #700a0a;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  
+  .form-container input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form-container .btn {
+    background: gold;
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    background: #2130b6;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  ul {
+    text-align: left;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
